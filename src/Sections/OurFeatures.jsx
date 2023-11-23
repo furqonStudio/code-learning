@@ -51,19 +51,19 @@ const OurFeatures = () => {
       <div className="flex mt-16 mb-14 m-auto gap-4">
         <div
           className={`button1 w-[51px] h-[11px] ${
-            activeSlide === 0 ? 'bg-[#DDF247] w-[100px]' : 'bg-gray-300'
+            activeSlide === 0 ? 'bg-[#DDF247] w-[80px]' : 'bg-gray-300'
           }`}
           onClick={() => goToSlide(0)}
         />
         <div
           className={`button2 w-[51px] h-[11px] ${
-            activeSlide === 1 ? 'bg-[#DDF247] w-[100px]' : 'bg-gray-300'
+            activeSlide === 1 ? 'bg-[#DDF247] w-[80px]' : 'bg-gray-300'
           }`}
           onClick={() => goToSlide(1)}
         />
         <div
           className={`button3 w-[51px] h-[11px] ${
-            activeSlide === 2 ? 'bg-[#DDF247] w-[100px]' : 'bg-gray-300'
+            activeSlide === 2 ? 'bg-[#DDF247] w-[80px]' : 'bg-gray-300'
           }`}
           onClick={() => goToSlide(2)}
         />
