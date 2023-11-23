@@ -22,7 +22,7 @@ const PackageLists = () => {
       </div>
       <div className="w-[343px] bg-[#010101] px-10 py-14 rounded-xl flex flex-col gap-12 text-center m-auto text-white relative my-6">
         <img
-          src="public\new.svg"
+          src="/new.svg"
           alt="new"
           className="absolute top-[130px] lef-[42px]"
         />

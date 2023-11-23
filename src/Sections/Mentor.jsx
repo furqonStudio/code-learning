@@ -2,22 +2,22 @@ const Mentor = () => {
   return (
     <div className="relative h-[479px] bg-[#010101]">
       <img
-        src="public\mentor.png"
+        src="/mentor.png"
         alt="mentor"
         className="absolute top-[80px] left-[75px] z-10"
       />
       <img
-        src="public\line.png"
+        src="/line.png"
         alt="line"
         className="absolute top-[80px] left-[41px] z-3"
       />
       <img
-        src="public\code.png"
+        src="/code.png"
         alt="code"
         className="absolute top-[200px] left-[16px] z-2"
       />
       <img
-        src="public\triangle.svg"
+        src="/triangle.svg"
         alt="triangle"
         className="absolute top-[400px] left-[240px] z-10 rotate-[-39deg]"
       />

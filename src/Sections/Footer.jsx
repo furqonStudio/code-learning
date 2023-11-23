@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       <div className="absolute bottom-0">
         <div className="flex gap-5 justify-center">
-          <img src="public\logo2.svg" alt="logo2" />
+          <img src="/logo2.svg" alt="logo2" />
           <p className="font-aeonik font-bold text-4xl">Macode</p>
         </div>
         <ul className="font-extralight text-xl opacity-50 text-center space-y-8 mt-14">
@@ -42,7 +42,7 @@ const Footer = () => {
         </ul>
         <div className="flex flex-col justify-center items-center gap-6 mt-14">
           <hr className="w-[343px]" />
-          <img src="public\social-media.svg" alt="social-media" />
+          <img src="/social-media.svg" alt="social-media" />
           <hr className="w-[343px]" />
         </div>
         <p className="font-aeonik text-xl text-center py-9">

@@ -18,9 +18,9 @@ const Trial = () => {
         />
       </div>
       <div className="relative mt-20">
-        <img src="public\code2.svg" alt="code2" />
+        <img src="/code2.svg" alt="code2" />
         <img
-          src="public\triangle.svg"
+          src="/triangle.svg"
           alt="triangle"
           className="absolute top-[146px] left-[246px]"
         />
