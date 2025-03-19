@@ -13,20 +13,22 @@ import Footer from './Sections/Footer'
 const App = () => {
   return (
     <Router>
-      <div className="max-w-[375px]">
-        <div className="px-4 py-5 ">
-          <Header />
-          <Hero />
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="max-w-[375px] w-full">
+          <div className="px-4 py-5">
+            <Header />
+            <Hero />
+          </div>
+    
+          <Mentor />
+          <Company />
+          <OurFeatures />
+          <Trial />
+          <Tutor />
+          <Package />
+          <Faqs />
+          <Footer />
         </div>
-
-        <Mentor />
-        <Company />
-        <OurFeatures />
-        <Trial />
-        <Tutor />
-        <Package />
-        <Faqs />
-        <Footer />
       </div>
     </Router>
   )
